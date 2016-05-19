@@ -1,0 +1,14 @@
+
+ .gradient {
+    filter: none;
+ }
+ 
+.search span{
+	display: inline-block;
+	line-height: 28px;
+	height: 28px;
+}
+
+.s-links {
+   top: 38px;
+}

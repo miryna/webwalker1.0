@@ -1,0 +1,63 @@
+
+ 
+#top-menus{
+position: relative;
+	background-color: #d5ebfc;
+	border-radius: 0 0 8px 8px;
+	behavior: url(pie.htc);
+}	
+#section2 ul, #sectionleft1 ul, #sectionleft2 ul{	
+	background-color: #f1f8fe;
+	border-radius: 8px 8px;
+	behavior: url(pie.htc);
+}
+#section2 h2, #sectionleft1 h2, #sectionleft2 h2{
+	background-color: #1e4595;
+	border-radius: 8px 8px 0 0;
+	behavior: url(pie.htc);
+}	
+#section2 aside{
+  float: left;
+  width: 50%;
+  margin: 0;
+  margin-left: -1px;
+} 
+#section2 ul{
+  margin-left: 3%; 
+  margin-right: 3%; 
+}
+#section2 h2{
+  margin-left: 3%; 
+  margin-right: 3%; 
+}  
+
+#main-menus{
+	position: relative;
+	zoom:1;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #1e4595;
+	border-radius: 8px;
+	behavior: url(pie.htc);
+}
+#search{
+  clear: both;
+}
+.search span{
+	display: inline-block;
+	line-height: 28px;
+	height: 28px;
+}
+.search button{
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+	-pie-background: linear-gradient(#87e0fd, #4badf4);
+}
+.search input, .search button{
+	position: relative;
+	border-radius: 4px;
+	behavior: url(pie.htc);
+}
+.s-links {
+  z-index: 2;
+}
+
